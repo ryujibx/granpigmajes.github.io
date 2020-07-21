@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/font.css">
+        <script src="js/JavaScript.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container logo-nav-container">
+                <div class="logo"><a href="main.html"><img src="images/Logo.png"></a></div>
+                <nav class="navigation">
+                    <ul>
+                        <li><a href="main.html">HOME</a></li>
+                        <li><a href="productos.html">PRODUCTOS</a></li>
+                        <li><a href="ubicanos.html">UBICANOS</a></li>
+                        <li><a href="la%20empresa.html">LA EMPRESA</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="banner">
+            <form method="post" action="visor.html">
+            <a href="javascript:abrir()"><div class="producto">
+                <img src="images/imagen1.png" id="p1">
+                <h3>COSTILLA/PANCETA</h3>
+                <h3>S/. 13.00</h3>
+                <h4>Kg <input type="number" id="kg-panceta" name="kg-panceta"></h4>
+            </div></a>
+            
+            <a href="javascript:abrir()"><div class="producto">
+                <img src="images/imagen2.png" id="p2">
+                <h3>CHICHARRON</h3>
+                <h3>S/. 10.00</h3>
+                <h4>Kg <input type="number" id="kg-chicharron" name="kg-chicharron"></h4>
+            </div></a>
+            
+            <a href="javascript:abrir()"><div class="producto">
+                <img src="images/imagen3.png" id="p3">
+                <h3>CHULETA DE LOMO</h3>
+                <h3>S/. 11.00</h3>
+                <h4>Kg <input type="number" id="kg-lomo" name="kg-lomo"></h4>
+            </div></a> 
+            
+            <a href="javascript:abrir()"><div class="producto">
+                <img src="images/imagen4.png" id="p4">
+                <h3>COGOTE</h3>
+                <h3>S/. 11.00</h3>
+                <h4>Kg <input type="number" id="kg-cogote" name="kg-cogote"></h4>
+            </div></a> 
+            
+            <a href="javascript:abrir()"><div class="producto">
+                <img src="images/imagen5.png" id="p5">
+                <h3>PULPA</h3>
+                <h3>S/.14.00</h3>
+                <h4>kg <input type="number" id="kg-pulpa" name="kg-pulpa"></h4>
+            </div></a> 
+            
+            <a href="javascript:abrir()"><div class="producto">
+                <img src="images/imagen6.png" id="p6">
+                <h3>LONJITAS</h3>
+                <h3>S/. 5.00</h3>
+                <h4>Kg <input type="number" id="kg-logitas" name="kg-logitas"></h4>
+            </div></a>
+            
+            <a href="javascript:abrir()"><div class="producto">
+                <img src="images/imagen7.png" id="p7">
+                <h3>PATITAS</h3>
+                <h3>S/. 5.00</h3>
+                <h4>Kg <input type="number" id="kg-patitas" name="kg-patitas"></h4>
+            </div></a>        
+            <div class="cont">
+                <div id="col1" class="columna-comp">
+                    <div><h3>Nombre:</h3></div>
+                    <div><h3>Direccion:</h3></div>
+                    <div><h3>telefono:</h3></div>
+                </div>
+                <div id="col2" class="columna-comp">
+                    <input class="txt" type="text" id="txtnombre" name="txtnombre">
+                    <input class="txt" type="text" id="txtdireccion" name="txtdireccion">
+                    <input class="txt" type="tel" id="telefono" name="telefono">
+                </div>
+            </div>
+            <div class="container"><button type="submit">REALIZAR PEDIDO</button></div>
+        </form>
+        </main>
+        <footer class="footer">
+            <p>DireccionAv. Simón Bolívar 1506 Mariano melgar | tlf: 959618966</p>
+            <p>Todos los derechos reservados 2020 GRAN PIG | Disenado por <a href="https://twitter.com/k0_koyomi">@k0_koyomi</a></p>
+        </footer>
+    </body>
+</html>
