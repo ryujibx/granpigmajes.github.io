@@ -1,0 +1,36 @@
+@font-face{
+    font-family:ArcaMajora3-Heavy;
+    src:url(ArcaMajora3-Heavy.otf);
+}
+@font-face{
+    font-family:Novus-Bold;
+    src:url(novus/Novus-Bold.otf)
+}
+@font-face{
+    font-family:Novus-Bold-Italic;
+    src:url(novus/Novus-Bold-Italic.otf)
+}
+@font-face{
+    font-family:Novus-Italic;
+    src:url(novus/Novus-Italic.otf)
+}
+@font-face{
+    font-family:Novus-Light;
+    src:url(novus/Novus-Light.otf)
+}
+@font-face{
+    font-family:Novus-Light-Italic;
+    src:url(novus/Novus-Light-Italic.otf)
+}
+@font-face{
+    font-family:Novus-Regular;
+    src:url(novus/Novus-Regular.otf)
+}
+@font-face{
+    font-family:Nurom-Bold;
+    src:url(nurom/Nurom-Bold.ttf)
+}
+@font-face{
+    font-family:NyataFTR-Regular;
+    src:url(nyata/NyataFTR-Regular.otf)
+}
